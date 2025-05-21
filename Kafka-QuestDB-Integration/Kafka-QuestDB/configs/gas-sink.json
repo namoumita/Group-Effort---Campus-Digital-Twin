@@ -1,0 +1,21 @@
+{
+    "connector.class": "io.questdb.kafka.QuestDBSinkConnector",
+    "tasks.max": "1",
+    "topics": "gas_topic",
+    "questdb.host": "questdb",
+    "questdb.port": "9000",
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter.schemas.enable": "false",
+    "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "key.converter.schemas.enable": "false",
+    "batch.size": "100",
+    "linger.ms": "500",
+    "max.retries": "3",
+    "retry.backoff.ms": "1000",
+    "include.key" : "false",
+    "timestamp.kafka.native" : "false",
+    "timestamp.field.name" : "timestamp",
+    "table" : "gas_consumption",
+    "client.conf.string" : "http::addr=questdb:9000;",
+    "timestamp.string.format" : "yyyy-MM-dd HH:mm:ss"
+}
