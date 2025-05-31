@@ -78,3 +78,7 @@ DigitalTwinUnity/
 
 - All data is simulated. For real-world usage, replace the backend with Azure Digital Twins endpoints or real IoT feeds.
 - The Unity scene expects responses from `/twin/{id}` or `/unity/{id}`.
+- > ⚠️ Note: Due to GitHub's file size limits, the 3D mesh `Textured_mesh_1_Selection.obj` (328MB) is stored externally.  
+[Download it here]([https://drive.google.com/your-link-here](https://drive.google.com/drive/folders/1G-Lqvh6PigunnbMpi9_WNhfoY3tVTbXR?usp=sharing) and place it in:
+`DigitalTwinUnity/Assets/Models/`
+
