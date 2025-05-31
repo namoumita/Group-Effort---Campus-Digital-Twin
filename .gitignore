@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Unity
+DigitalTwinUnity/[Ll]ibrary/
+DigitalTwinUnity/[Tt]emp/
+DigitalTwinUnity/[Oo]bj/
+DigitalTwinUnity/[Bb]uild*/
+DigitalTwinUnity/UserSettings/
+DigitalTwinUnity/Logs/
+
+# Virtual environments (if any)
+venv/
+.env/
+
+# VSCode
+.vscode/
+

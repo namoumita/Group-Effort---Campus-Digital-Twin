@@ -1,0 +1,14 @@
+# FastAPI and ASGI server
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+
+# Optional: Type checking and dev support
+python-dotenv==1.0.1
+pydantic==2.6.4
+
+# Optional: PostgreSQL support (if extending later)
+asyncpg==0.29.0
+sqlalchemy==2.0.29
+
+# For JSON, datetime, etc. (included in stdlib, but noted for completeness)
+# No external library needed
