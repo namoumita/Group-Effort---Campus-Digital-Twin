@@ -63,14 +63,10 @@ DigitalTwinUnity/
 
 ---
 
-## 👨‍💻 Developers
+## 👨‍💻 Developer
 
 - Tithir Mahmud Bakshi  
-- Sayuru Gunawardana  
-- Mashrukh Namooumita  
-- Likith Reddy  
-- Babanpreet Singh  
-- Nafisa Ahmaad  
+
 
 ---
 
