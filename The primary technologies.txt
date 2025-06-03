@@ -1,0 +1,33 @@
+The primary technologies employed include Django for backend development, Three.js for rendering and compressing 3D models, Bootstrap for front-end UI design, HTML/CSS for layout and styling, SQLite for lightweight data storage, and Chart.js for graphical data representation. Each of these was chosen for specific advantages aligned with the objectives of the project.
+
+1. Django – Robust Backend Framework
+Django, a high-level Python web framework, serves as the backbone of this project. Its "batteries-included" philosophy allows for rapid development and clean, pragmatic design. Django handles routing, business logic, form validation, and database integration with minimal boilerplate, making it ideal for this project's needs.
+
+The framework’s support for RESTful API development via Django REST Framework (DRF) allows for structured and secure communication between the backend and the frontend using the Fetch API. Furthermore, Django’s built-in security features, such as protection against SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF), make it a robust choice for any web application.
+
+2. Three.js – WebGL-based 3D Rendering
+Three.js is a powerful JavaScript library used to display animated 3D computer graphics in a web browser using WebGL. This project uses Three.js to render complex 3D models directly within the browser, allowing users to interact with them in real-time. Its support for model compression techniques such as DRACO and glTF enables efficient model loading and reduces the size of assets, which improves performance and user experience.
+
+The ability to manipulate lighting, camera angles, and material properties gives users a deeper and more intuitive understanding of the 3D models. As the main feature of the application, Three.js provides the graphical foundation necessary to explore and interact with 3D content on the web without additional plugins.
+
+3. Bootstrap, HTML, and CSS – Responsive and Structured UI
+For the front-end interface, the combination of Bootstrap, HTML, and CSS ensures a clean, responsive, and mobile-friendly design. Bootstrap’s component-based structure allows for rapid prototyping of consistent UI elements like modals, navbars, buttons, and forms.
+
+HTML and CSS are used alongside Bootstrap to customize the layout and appearance of each component, ensuring the website is visually aligned with the project’s theme. With these technologies, the UI remains intuitive and accessible across different screen sizes and devices, enhancing the overall user experience.
+
+
+
+4. SQLite – Lightweight and Integrated Data Storage
+SQLite is employed as the primary database for this application due to its simplicity, portability, and zero-configuration nature. It integrates seamlessly with Django, requiring minimal setup, which makes it ideal for small to medium-sized projects like this one.
+
+SQLite is used to store user inputs, metadata about 3D models, and analytics data. Its performance and ease of use help streamline development and testing, while still offering the transactional reliability needed for managing data accurately.
+
+5. Chart.js – Interactive Data Visualization
+To complement the 3D model viewer, Chart.js is used to visualize related analytical or statistical data in a digestible graphical format. Chart.js supports various chart types like bar, line, pie, and radar charts with smooth animations and customization options.
+
+In this project, it plays a critical role in displaying trends or measurements tied to the 3D models — such as usage statistics, dimensions, or modification history — in a visually engaging way. The combination of interactivity and clarity in presentation supports better understanding and decision-making for users interacting with the models.
+
+Conclusion
+The combination of these technologies creates a robust, interactive, and efficient web platform for 3D model visualization and analysis. Each component was selected to solve a specific challenge within the project — from server-side management and data handling to client-side rendering and user interaction. Together, they form a cohesive ecosystem that ensures a high-quality user experience and scalable development architecture. This careful integration of Django, Three.js, Bootstrap, HTML/CSS,  SQLite, and Chart.js not only enhances functionality but also sets a solid foundation for future expansion and feature enhancement.
+
+https://drive.google.com/file/d/1vOV0S2L4meYLd6XWWeblCy_s-NiVs-YG/view?usp=sharing
